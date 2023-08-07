@@ -11,6 +11,15 @@
 		F0B6C5CE2A7AD2E1001FC192 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B6C5CD2A7AD2E1001FC192 /* ContentView.swift */; };
 		F0B6C5D02A7AD2E2001FC192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B6C5CF2A7AD2E2001FC192 /* Assets.xcassets */; };
 		F0B6C5D32A7AD2E2001FC192 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B6C5D22A7AD2E2001FC192 /* Preview Assets.xcassets */; };
+		F0B6C5DA2A7AE433001FC192 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B6C5D92A7AE433001FC192 /* GameController.swift */; };
+		F0E5D70C2A81001200814F21 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5D70B2A81001200814F21 /* Enemy.swift */; };
+		F0E5D70E2A810DE100814F21 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5D70D2A810DE100814F21 /* GameScene.swift */; };
+		F0E5D7122A81238D00814F21 /* SKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5D7112A81238D00814F21 /* SKUtils.swift */; };
+		F0E5D7182A81399D00814F21 /* Eggy Toast - Pressure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0E5D7142A81399D00814F21 /* Eggy Toast - Pressure.mp3 */; };
+		F0E5D7192A81399D00814F21 /* Eggy Toast - Death Valley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0E5D7152A81399D00814F21 /* Eggy Toast - Death Valley.mp3 */; };
+		F0E5D71A2A81399D00814F21 /* HoliznaCC0 - Gamer 75.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0E5D7162A81399D00814F21 /* HoliznaCC0 - Gamer 75.mp3 */; };
+		F0E5D71B2A81399D00814F21 /* Zane Little - It Takes A Hero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0E5D7172A81399D00814F21 /* Zane Little - It Takes A Hero.mp3 */; };
+		F0E5D71D2A813E8800814F21 /* GameAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5D71C2A813E8800814F21 /* GameAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		F0B6C5CD2A7AD2E1001FC192 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0B6C5CF2A7AD2E2001FC192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0B6C5D22A7AD2E2001FC192 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0B6C5D92A7AE433001FC192 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		F0E5D70B2A81001200814F21 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		F0E5D70D2A810DE100814F21 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F0E5D7112A81238D00814F21 /* SKUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKUtils.swift; sourceTree = "<group>"; };
+		F0E5D7142A81399D00814F21 /* Eggy Toast - Pressure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Eggy Toast - Pressure.mp3"; path = "Assets/Musica/Eggy Toast - Pressure.mp3"; sourceTree = SOURCE_ROOT; };
+		F0E5D7152A81399D00814F21 /* Eggy Toast - Death Valley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Eggy Toast - Death Valley.mp3"; path = "Assets/Musica/Eggy Toast - Death Valley.mp3"; sourceTree = SOURCE_ROOT; };
+		F0E5D7162A81399D00814F21 /* HoliznaCC0 - Gamer 75.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "HoliznaCC0 - Gamer 75.mp3"; path = "Assets/Musica/HoliznaCC0 - Gamer 75.mp3"; sourceTree = SOURCE_ROOT; };
+		F0E5D7172A81399D00814F21 /* Zane Little - It Takes A Hero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Zane Little - It Takes A Hero.mp3"; path = "Assets/Musica/Zane Little - It Takes A Hero.mp3"; sourceTree = SOURCE_ROOT; };
+		F0E5D71C2A813E8800814F21 /* GameAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,12 @@
 			children = (
 				F0B6C5CB2A7AD2E1001FC192 /* Nano_Challenge_2App.swift */,
 				F0B6C5CD2A7AD2E1001FC192 /* ContentView.swift */,
+				F0B6C5D92A7AE433001FC192 /* GameController.swift */,
+				F0E5D70D2A810DE100814F21 /* GameScene.swift */,
+				F0E5D70A2A80FED100814F21 /* Data */,
+				F0E5D7132A81397B00814F21 /* Files */,
+				F0E5D70F2A810FFD00814F21 /* Views */,
+				F0E5D7102A81237900814F21 /* Utils */,
 				F0B6C5CF2A7AD2E2001FC192 /* Assets.xcassets */,
 				F0B6C5D12A7AD2E2001FC192 /* Preview Content */,
 			);
@@ -65,6 +89,41 @@
 				F0B6C5D22A7AD2E2001FC192 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0E5D70A2A80FED100814F21 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F0E5D70B2A81001200814F21 /* Enemy.swift */,
+				F0E5D71C2A813E8800814F21 /* GameAnimations.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F0E5D70F2A810FFD00814F21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0E5D7102A81237900814F21 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F0E5D7112A81238D00814F21 /* SKUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F0E5D7132A81397B00814F21 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0E5D7152A81399D00814F21 /* Eggy Toast - Death Valley.mp3 */,
+				F0E5D7142A81399D00814F21 /* Eggy Toast - Pressure.mp3 */,
+				F0E5D7162A81399D00814F21 /* HoliznaCC0 - Gamer 75.mp3 */,
+				F0E5D7172A81399D00814F21 /* Zane Little - It Takes A Hero.mp3 */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +184,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E5D71B2A81399D00814F21 /* Zane Little - It Takes A Hero.mp3 in Resources */,
+				F0E5D7182A81399D00814F21 /* Eggy Toast - Pressure.mp3 in Resources */,
+				F0E5D71A2A81399D00814F21 /* HoliznaCC0 - Gamer 75.mp3 in Resources */,
 				F0B6C5D32A7AD2E2001FC192 /* Preview Assets.xcassets in Resources */,
+				F0E5D7192A81399D00814F21 /* Eggy Toast - Death Valley.mp3 in Resources */,
 				F0B6C5D02A7AD2E2001FC192 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E5D70E2A810DE100814F21 /* GameScene.swift in Sources */,
+				F0E5D70C2A81001200814F21 /* Enemy.swift in Sources */,
 				F0B6C5CE2A7AD2E1001FC192 /* ContentView.swift in Sources */,
+				F0E5D7122A81238D00814F21 /* SKUtils.swift in Sources */,
+				F0B6C5DA2A7AE433001FC192 /* GameController.swift in Sources */,
 				F0B6C5CC2A7AD2E1001FC192 /* Nano_Challenge_2App.swift in Sources */,
+				F0E5D71D2A813E8800814F21 /* GameAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
